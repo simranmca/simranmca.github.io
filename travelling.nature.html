@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="hodophile , traveller , nature , places to visit">
+    <meta name="roborts" content="INDEX , FOLLOW">
+    <title>Nature Tourism</title>
+</head>
+<style>
+    body{
+        color:darkblue;
+    }
+    #home{
+        height:1000px;
+    animation: animate 14s ease-in-out infinite;
+    background:url('img/winding-road-1556177_1920.jpg');
+    background:url('img/man-1246233_1920.jpg');
+    background:url('img/freedom-4737919_1920.jpg');
+    background:url('img/1.jpg');
+    padding:300px 100px;
+    -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+    height: 100px;
+    position: relative;
+    background-repeat: no-repeat;
+    }
+    @keyframes animate{
+        
+        0%,100%{
+            background-image: url('img/freedom-4737919_1920.jpg');
+        }
+        25%{
+            background-image: url('img/1.jpg');
+        }
+        50%{
+            background-image:url('img/winding-road-1556177_1920.jpg');
+        }
+        75%{
+            background-image:url('img/man-1246233_1920.jpg');
+        }
+
+    }
+    .left{
+        position:absolute;
+        display:inline-block;
+        left:0px;
+        top:0px;
+        right:15px;
+        font-size:25px;
+        font-family: cursive;
+        font-weight: bold;
+        background-color:white;
+        padding: 15px 12px;
+        
+    }
+    .left1{
+        position:absolute;
+        display:inline-block;
+        left:110px;
+        top:70px;
+        font-size:20px;
+        font-family: cursive;
+        font-weight: bold;
+        
+    }
+
+    .left div {
+        line-height: 15px;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .right{
+        position:absolute;
+        right:0px;
+        top:0px;
+        display:inline-block;
+        background-color: white;
+        
+    }
+    .right1{
+        position:absolute;
+        right:300px;
+        top:200px;
+        display:inline-block;
+        
+    }
+
+    .mid{
+        position:absolute;
+        display:inline-block;
+        background-color: black;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 23px;
+    }
+
+    .navbar li a {
+        color:darkblue;
+        font-size: larger;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color:black;
+
+    }
+    #about{
+          color:darkblue;
+          height:500px;
+          width: 1240px;
+          text-align: center;
+          background-image: url('img/field-6109500_1920.jpg'); 
+          padding:100px 47px;
+         -webkit-background-size:cover ;
+          background-size:cover;
+          background-position: center center;
+          position: relative;
+          background-repeat: no-repeat;
+         }
+         #blogs{
+             color: darkblue;
+             height:500px;
+             width:1240px;
+             background-image: url(img/woman-2896389_1920.jpg);
+             padding:100px 50px;
+             -webkit-background-size:cover ;
+          background-size: cover;
+          background-position: center center;
+          position: relative;
+          background-repeat: no-repeat;
+         }
+         .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 3px;
+        background-color: rgb(102, 102, 226);
+        color: white;
+        padding: 4px 8px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(158, 158, 206);
+    }
+    .container {
+        border: 2px solid black;
+        margin: 30px 20px;
+        padding: 50px;
+        width: 40%;
+        height:300px;
+        border-radius: 28px;
+    }
+    .container2 {
+        border: 2px solid white;
+        width: 90%;
+        height:550px;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 355px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+      #contact{
+          height:500px;
+          width:1240px;
+          background-image: url('img/rainbow-1467988_1920.jpg');
+          padding:100px 50px;
+          -webkit-background-size:cover ;
+          background-size: cover;
+          background-position: center center;
+          position: relative;
+          background-repeat: no-repeat;
+          color: white;
+        
+         }
+         .align{
+             text-align: left;
+             color: darkslategray;
+             font-size: larger;
+
+         }
+         .hh{
+             text-align:right;
+             
+             
+         }
+         .hh a{
+             color:black;
+             font-size: 25px;
+         }
+         .ss{
+             text-align: left;
+             font-size: 25px;
+             color:#4682b4;
+             background-color: white;
+             
+         }
+        .xx{
+            text-align: right;
+            font-size: larger;
+        }
+        .xx a{
+            color:white;
+             font-size: 25px;
+        }
+    .ee{
+        text-align: right;
+        font-size: larger;
+
+    }
+    .ee a{
+        color:white;
+             font-size: 25px;
+    }
+    .imss{
+        text-align: center;
+        font-size: larger;
+            
+    }
+    .em{
+        color: white;
+        font-size: larger;
+        margin-top: auto;
+    }
+    .ph{
+        color: white;
+        margin-top: 50px;
+        font-size: larger;
+    }
+    .xxt{
+        color: white;
+        font-size: larger;
+        margin-top: auto;
+    }
+    .ttp{
+        font-size: 150px;
+        color: white;
+        font-family: ballu-bhai ;
+        text-align: center;
+    }
+    .btntp{
+
+        text-align: center;
+        font-size: 40px;
+        
+    }
+    .btntp a{
+        color:#000080;
+    }
+    .cvb{
+        background-color: teal;
+        color:white;
+    }
+    .bgg{
+        color:darkblue;
+    }
+    
+
+</style>
+<body>
+    
+    <div id="home">
+        <header >
+       
+            <!-- left box for logo -->
+            <div class="left">
+                Travelling.nature
+            </div>
+            <div class="mid">
+    
+            </div>
+            <!-- right box for buttons -->
+            <div class="right">
+                <ul class="navbar">
+                <li><a href="#home" >HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#blogs">BLOGS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            </div>
+        </header>
+        <div class="ttp">
+        INDIA
+        </div>
+        <div class="btntp">
+           <a href="#visit">EXPLORE</a>
+        </div>
+
+    </div>
+    <div id="about">
+        
+        <h1 ><em>“The journey of a thousand miles begins with a single step.”</em></h1>
+        <h2>“Jobs fill your pocket but adventures fill your soul.”</h2>
+        <div class="align">
+<h3>HODOPHILE</h3>
+<ul>
+   <li><p>Derived from an ancient Greek word (οὐδός) pertaining to roads and journeys, hodophile is a lesser-known travel term. That's oddly fitting, given that those who exhibit it are known to travel to lesser-known destinations.</p></li>
+   <li><ol><li><b>One who loves to travel</b></li><li><b>A traveler with a special affinity for roads</b></li></ol></li>
+</ul>
+
+<h4>Nature Tourism</h4>
+<p><summary> nature tourism –</summary> 
+    responsible travel to natural areas, which conserves the environment and improves the welfare of local people.</p>
+<p>It is tourism based on the natural attractions of an area. Examples include birdwatching, photography, stargazing, camping, hiking, hunting, fishing, and visiting parks. These experiential tourists are interested in a diversity of natural and cultural resources. They want what is real, and they want to be immersed in a rich natural, cultural, or historical experience.</p>
+</div>
+<div class="hh">
+<a href="#home" >HOME</a>
+</div>
+    </div>
+    <div id="blogs">
+        <div class="bgg">
+        <h1>WELCOME TO THE TRAVELLING.NATURE.</h1></div>
+        <div class="ss">
+        <p><b>If you are new here and want to get an idea of what this site is all about we have put together a page just for you!</b></p>
+        </div>
+        <div class="container">
+            <div class="cvb">
+        <h2><b>LOGIN TO GET STARTED.</b></h2></div>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+        </div>
+        <div class="xx">
+        <a href="#home" >HOME</a>
+    </div></div>
+    <div id="contact">
+        <div class="container2">
+            <div class="left1">
+        <h1>Follow Us On Instagram</h1>
+        <div class="imss">
+        <img src="img/Screenshot_2021-04-11-20-06-52-135_com.instagram.android.jpg">
+        </div>
+        <div id="ind">Instagram id: travelling.nature_</div>
+        </div>
+        <div class="right1">
+            <img src="img/download (1).png">
+        <div class="em">Email:travelling.natr@gmail.com</div>
+        
+        <div class="ph"><img src="img/download.png"></div>
+        <div class="xxt">
+            Phone:9999999999
+            </div>
+        </div>
+            </div>
+            <div class="ee">
+
+        <a href="#home" >HOME</a>
+        </div>
+    </div>
+
+</body>
+</html>
